@@ -1,0 +1,54 @@
+.conect {
+  height: auto;
+  width: 90vw;
+  font-family: Vazir;
+  color: rgb(83, 83, 83);
+  padding: 35px 80px;
+  align-items: center;
+  margin: 20px auto 0;
+  border: 1px solid rgba(153, 153, 153, 0.336);
+  box-shadow: 1px 1px 1px 1px rgba(97, 97, 97, 0.336);
+  border-radius: 4px;
+  background-image: url(../../assets/images/conect.jpg);
+  background-size: cover;
+  direction: ltr;
+}
+.conect h3 {
+  text-align: center;
+  margin-bottom: 35px;
+  margin-top: 25px;
+  color: rgb(44, 168, 252);
+}
+.form-conect {
+  width: 60vw;
+  height: auto;
+  margin: 0 auto;
+  box-shadow: 1px 1px 1px 1px rgba(97, 97, 97, 0.336);
+  padding: 35px;
+  background-color: rgba(211, 211, 211, 0.74);
+  font-weight: bold;
+  border-radius: 4px;
+}
+.form-control {
+  border: 1px solid rgba(153, 153, 153, 0.877);
+}
+#formFile {
+  background-color: rgba(197, 197, 197, 0.589);
+  border: 1px solid rgb(179, 179, 179);
+  direction: ltr;
+}
+.btn-conect {
+  width: 150px;
+  margin-left: 300px;
+}
+@media (max-width: 568px) {
+  .conect {
+    height: auto;
+    width: 90vw;
+    background-image: none;
+  }
+  .btn-conect {
+    width: 110px;
+    margin-left: 55px;
+  }
+}

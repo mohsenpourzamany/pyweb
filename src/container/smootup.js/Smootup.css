@@ -1,0 +1,12 @@
+.smootup {
+  height: 150px;
+  overflow: hidden;
+}
+.smootup svg {
+  height: 100%;
+  width: 100%;
+}
+.smootup path {
+  stroke: none;
+  fill: #356fdc;
+}

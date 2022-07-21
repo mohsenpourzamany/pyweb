@@ -1,0 +1,16 @@
+.img-pyweb {
+  margin: 145px auto 30px;
+  height: 500px;
+  width: 1200px;
+}
+.img-pyweb img {
+  /* box-shadow: 1px 1px 1px 1px rgba(0, 0, 0, 0.5); */
+  border-radius: 4px;
+}
+@media (max-width: 568px) {
+  .img-pyweb {
+    margin: 80px auto 15px;
+    height: 80vh;
+    width: 90vw;
+  }
+}

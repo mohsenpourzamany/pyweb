@@ -1,0 +1,12 @@
+.smootbt {
+  height: 150px;
+  overflow: hidden;
+}
+.smootbt svg {
+  height: 200px !important;
+  width: 100%;
+}
+.smootbt path {
+  stroke: none;
+  fill: rgba(22, 11, 11, 0.911);
+}

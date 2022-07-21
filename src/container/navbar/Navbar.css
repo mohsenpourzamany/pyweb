@@ -1,0 +1,111 @@
+.navbar {
+  display: flex;
+  height: 100px;
+  width: 100vw;
+  padding: 10px;
+  border-bottom: 1px solid rgba(153, 153, 153, 0.336);
+  box-shadow: 0 2px rgba(153, 153, 153, 0.336);
+  background-color: white;
+  position: fixed;
+  z-index: 80;
+  direction: ltr;
+}
+.navbar-container {
+  display: flex;
+  align-items: center;
+}
+.navbar-menu {
+  display: flex;
+  flex-direction: row-reverse;
+  align-items: center;
+  margin-left: 80px;
+  direction: rtl;
+}
+
+.navbar-logo {
+  display: flex;
+  align-items: center;
+  margin-left: 20px;
+}
+.navbar-logo img {
+  height: 65px;
+  width: 110px;
+  margin-right: 1rem;
+}
+/* .navbar-text{
+    font-size: 28px;
+    font-weight: bolder;
+    color: rgb(201, 39, 39) !important;
+} */
+.navbar-menu-item {
+  list-style: none;
+  margin-left: 30px;
+}
+.navbar-menu-link {
+  text-decoration: none;
+  color: rgb(85, 85, 85) !important;
+  font-size: 21px;
+  font-weight: bold;
+  font-family: Vazir !important;
+  margin-left: 10px;
+  width: 120px;
+  border-radius: 3px;
+  text-align: center;
+}
+.nav-link:hover {
+  background-color: #a3a3a3 !important;
+  color: white !important;
+}
+
+.last-child {
+  border: 1px solid #356fdc;
+  margin-right: 350px;
+  background-color: #356fdc;
+  color: white !important;
+  cursor: pointer;
+  border-radius: 3px;
+}
+.last-child:hover {
+  background-color: white !important;
+  color: #356fdc !important;
+}
+@media (max-width: 568px) {
+  .navbar {
+    height: 60px;
+    width: 100vw;
+    padding: 5px;
+    direction: ltr;
+  }
+  .navbar-menu {
+    direction: rtl;
+    margin-top: 15px;
+    flex-direction: column;
+    background-color: #dadada;
+    height: 210px;
+    width: 150px;
+  }
+  .navbar-menu-link {
+    font-size: 14px;
+    margin-left: 0;
+    direction: rtl;
+    padding-right: 0;
+  }
+
+  .navbar-logo img {
+    height: 35px;
+    width: 55px;
+    margin-right: 0.5rem;
+  }
+  .nav-item {
+    width: 100px;
+    height: 35px;
+  }
+  .last-child {
+    height: 35px;
+    width: 120px;
+    text-align: center;
+    line-height: 17px;
+    margin-right: 0 !important;
+    margin-top: 5px;
+  }
+}

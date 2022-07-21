@@ -1,0 +1,77 @@
+.hero {
+  height: 550px;
+  width: 100vw;
+}
+.hero-left {
+  padding: 50px 40px;
+}
+.hero-left h1 {
+  font-size: large;
+  color: rgb(119, 119, 119);
+}
+.hero-left span {
+  font-family: Vazir;
+  font-size: 70px;
+  font-weight: bolder;
+  color: rgb(180, 48, 48) !important;
+  margin-top: -100px;
+  margin-left: -20px;
+  z-index: 50px;
+}
+.hero-left h3 {
+  font-size: 45px;
+  font-weight: bold;
+  color: rgb(119, 119, 119);
+  margin-top: 30px;
+}
+.social {
+  height: 250px;
+  width: 51px;
+  align-items: center;
+  border-radius: 2px;
+  margin: 285px 8px;
+}
+.offcanvas-header {
+  padding: 0 !important;
+}
+.social img {
+  margin-bottom: 0;
+  border-radius: 0 !important;
+}
+.call {
+  width: 70px;
+  height: 70px;
+  position: fixed;
+  right: 0;
+  top: 518px;
+  align-content: center;
+  z-index: 100;
+  border-radius: 50%;
+}
+.call img {
+  height: 50px;
+  width: 50px;
+}
+@media (max-width: 568px) {
+  .call {
+    width: 50px;
+    height: 50px;
+    top: 240px;
+  }
+  .call img {
+    width: 35px;
+    height: 35px;
+    margin-right: -5px;
+  }
+  .social {
+    height: 175px;
+    width: 35px;
+    align-items: center;
+    border-radius: 2px;
+    margin: 85px 8px;
+  }
+  .social img {
+    width: 35px;
+    height: 35px;
+  }
+}

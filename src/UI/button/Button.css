@@ -1,0 +1,12 @@
+.btn--sign {
+  font-family: Vazir;
+  font-size: 16px !important;
+  font-weight: bolder;
+  margin-left: 80px;
+  padding: 10px 25px;
+}
+.btn--sign:hover {
+  background-color: transparent;
+  color: #686868;
+  border: 2px solid #356fdc;
+}

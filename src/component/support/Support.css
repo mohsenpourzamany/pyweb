@@ -1,0 +1,17 @@
+.support {
+  height: auto;
+  width: 90vw;
+  box-shadow: 3px 3px 3px 3px rgba(0, 0, 0, 0.5);
+  font-family: Vazir;
+  color: rgb(83, 83, 83);
+  padding: 35px 80px;
+  align-items: center;
+  margin: 20px auto 0;
+  border-radius: 15px;
+  border: 1px solid rgb(122, 122, 122);
+  background-image: url(../../assets/images/support.png);
+  background-size: cover;
+}
+.form-control {
+  background-color: transparent;
+}

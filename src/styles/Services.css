@@ -1,0 +1,18 @@
+.img-services {
+  margin: 145px auto 30px;
+  height: 400px;
+  height: 500px;
+  width: 1200px;
+}
+.img-services img {
+  /* border: 1px solid rgba(153, 153, 153, 0.336);
+  box-shadow: 1px 1px 1px 1px rgba(97, 97, 97, 0.336); */
+  border-radius: 4px;
+}
+@media (max-width: 568px) {
+  .img-services {
+    margin: 80px auto 15px;
+    height: 80vh;
+    width: 90vw;
+  }
+}

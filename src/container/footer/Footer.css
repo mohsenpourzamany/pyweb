@@ -1,0 +1,34 @@
+.footer {
+  direction: rtl;
+  padding: 20px 30px;
+  background-color: #356fdc;
+  color: white;
+  font-family: Vazir;
+}
+hr {
+  width: 75% !important;
+  margin-bottom: 15px !important;
+}
+h6 {
+  font-size: 22px;
+  font-weight: bold;
+}
+.footer-link {
+  font-size: 18px;
+  color: white !important;
+  text-decoration: none;
+}
+.footer-link:first-child {
+  margin-top: 10px;
+}
+.form-label,
+.btn-outline-light {
+  font-size: 18px;
+}
+.footer-img {
+  height: 112px;
+  width: 170px;
+  margin: 75px;
+  background-color: white;
+  border-radius: 3px;
+}
